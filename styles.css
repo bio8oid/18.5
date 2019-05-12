@@ -65,6 +65,10 @@ input {
 .contactsList {
 	border-radius: 2px;
 	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -74,6 +78,10 @@ input {
 .contactForm {
 	background: #E3F2FD;
 	border-radius: 10px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
