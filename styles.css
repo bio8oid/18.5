@@ -1,0 +1,83 @@
+body {
+	margin: 50px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+	padding: 10px;
+}
+
+button {
+	width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid #90CAF9;
+  background-color: #FFFDE7;
+  font-weight: 400;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;	
+  margin: 20px;
+}
+
+input {
+	margin: 20px;
+	border: 2px solid #90CAF9;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.contactImage {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: left;
+	margin: 20px;
+}
+
+.contactLabel {
+	background: #FFF;
+	border: 1px solid #90CAF9;
+	width: 60%;
+	border-radius: 3px;
+	margin-left: 150px;
+	padding: 5px;
+}
+
+.contactEmail {
+	margin-left: 150px;
+}
+
+.app {
+	background: #fff;
+}
+
+.contactItem {
+	min-width: 500px;
+	background: #E0F7FA;
+	margin: 10px auto;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid #90CAF9;
+}
+
+.contactsList {
+	border-radius: 2px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.contactForm {
+	background: #E3F2FD;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	border: 1px solid #90CAF9;
+	margin: 10px;
+}
+
