@@ -8,20 +8,20 @@ var ContactForm = React.createClass({
       React.createElement('form', {className: 'contactForm'},
         React.createElement('input', {
           type: 'text',
-          placeholder: 'Imię',
+          placeholder: 'name',
           value: this.props.contact.firstName,
         }),
         React.createElement('input', {
           type: 'text',
-          placeholder: 'Nazwisko',
+          placeholder: 'surname',
           value: this.props.contact.lastName,
         }),
         React.createElement('input', {
-          type: 'email',
+          type: 'email',    
           placeholder: 'Email',
           value: this.props.contact.email,
         }),
-        React.createElement('button', {type: 'submit'}, "Dodaj kontakt")
+        React.createElement('button', {type: 'submit'}, "Add contact")
       )
     )
   },
